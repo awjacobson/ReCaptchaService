@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>AWJ.ReCaptchaService</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Aaron Jacobson</Authors>
+    <Company />
+    <Description>.NET Standard service for verifying Google ReCaptcha</Description>
+    <Copyright>2019</Copyright>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/awjacobson/ReCaptchaService</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/awjacobson/ReCaptchaService</PackageProjectUrl>
+    <PackageTags>ReCaptcha c# csharp .net</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
